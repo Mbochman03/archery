@@ -3,66 +3,43 @@
 <head>
   <meta charset="utf-8">
   <title>Straight to the Point Archery</title>
-  <style>
-    .icon-home {
-      max-width: 8rem;
-    }
-    .header-bar {
-      background-color: #03a3df;
-    }
-    ul {
-      list-style: none;
-    }
-    .footer-container {
-        background-color: #03a3df;
-    }
-    #google-image {
-      max-width: 30%;
-    }
-    .footer-icons {
-      max-width: 1rem;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<header>
-  <div class="header-bar">
-    <a class="logo-white" href="/index.html">
-      <img src="images/logo-white.png" alt="Straight to the Top Logo">
-    </a>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-  </nav>
-  </div>
-</header>
-
 <body>
+  <header class="header-container">
+      <div class="nav-items-container">
+        <nav>
+          <a id="logo-white" href="index.html"><img src="images/logo-white.png" alt="Straight to the Top Logo">
+          <ul class="nav-items">
+              <li class="nav-li"><a href="index.html">Home</a></li>
+              <li class="nav-li"><a href="services.html">Services</a></li>
+              <li class="nav-li"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
   <div class="user-choice">
     <div class="group-classes">
-      <a href="anchor-group-classes">
-        <img class="icon-home"src="images/group.svg" alt="Icon of Multiple People">
-      </a>
-      <button class="button">Learn More</button>
-      <p>Group classes of ten or less students provide guidance for all levels by a certified instructor.</p>
+      <h1>Group Classes</h1>
+      <a href="services.html"><img class="icon-home"src="images/group.svg" alt="Icon of Multiple People"></a>
+      <a href="services.html"><button class="button">Learn More</button></a>
+      <p>Group classes of ten or less students provide guidance for all levels by a certified archery instructor.</p>
     </div>
     <div class="private-lessons">
-      <a href="anchor-private-lessons">
-        <img class="icon-home" src="images/private.svg" alt="Icon of Two People">
-      </a>
-      <button class="button">Learn More</button>
-      <p>Private lessons provide one-on-one direction for all levels with a certified instructor.  </p>
+      <h1>Private Lessons</h1>
+      <a href="services.html"><img class="icon-home" src="images/private.svg" alt="Icon of Two People"></a>
+      <a href="services.html"><button class="button">Learn More</button></a>
+      <p>Private lessons provide one-on-one direction for all levels with a certified archery instructor.</p>
     </div>
   </div>
-</body>
+
 
 <footer class="footer-container">
   <img id="google-image" src="images/tacoma.jpg" alt="Map of Straight to the Point Archery">
   <div class="address-elements">
+    <h3>Straight to the Point Archery</h3> <br>
     <img class="footer-icons" src="images/location-icon.svg" alt="Location Icon Pindrop">
-    <h3>Straight to the Point Archery</h3>
     <p>528 Nock Point Lane<br>Tacoma, WA 98412</p>
   </div>
   <div class="email-elements">
@@ -71,8 +48,8 @@
   </div>
   <div class="phone-elements">
     <img class="footer-icons" src="images/phone-icon.svg" alt="Phone Icon">
-    <p>(253)555-1010</p>
+    <p>(253) 555-1010</p>
   </div>
 </footer>
-
+</body>
 </html>
