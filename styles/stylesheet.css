@@ -1,16 +1,237 @@
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header-container{
+  background-color: #03a3df;
+  padding: 20px 40px;
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: .9rem;
+}
+h1  {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: rgb(70, 69, 69);
+  margin-top: 0;
+}
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(70, 69, 69);
+}
+.nav-items {
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+  vertical-align: middle;
+  color: white;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: uppercase;
+}
+nav li:hover {
+  opacity: .5;
+}
+nav li:visited {
+  color: #fff;
+}
+#logo-white {
+  display: inline-block;
+}
 .button {
   background-color: #f4511e;
   border: none;
   color: white;
+  display: block;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  opacity: 0.6;
+  opacity: 0.9;
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
 }
-
 .button:hover {opacity: 1}
+.user-choice {
+  background: #eef2f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.group-classes {
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.private-lessons {
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.icon-home {
+  display: block;
+  padding-bottom: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+}
+.icon-home:hover {
+  opacity: 1;
+}
+.footer-container {
+  background-color: #03a3df;
+  padding: 20px 60px;
+}
+#google-image {
+  width: 40%;
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+.address-elements {
+  display: inline-block;
+}
+.footer-icons {
+  display: inline-block;
+  width: 20px;
+  padding-right: 20px;
+}
+footer h3 {
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: inline-block;
+}
+footer p {
+  color: #fff;
+  display: inline-block;
+}
+
+/* SERVICES page styling */
+#group-image {
+  padding-left: 40px;
+  display: inline-block;
+  width: 30%;
+  float: left;
+  margin-top: 40px;
+}
+.group-classes-content {
+  display: inline-block;
+  width: 55%;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+#private-image {
+  padding-left: 40px;
+  padding-top: 40px;
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+.private-lessons-content {
+  display: inline-block;
+  width: 55%;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.private-lessons-content h2{
+  margin: 0;
+}
+.classes-h2 {
+  border-bottom: 1px dotted;
+  border-color: grey;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.private-lessons-services {
+  background-color: #eef2f4;
+}
+.private-h2 {
+  border-bottom: 1px dotted;
+  padding-top: 40px;
+  border-color: grey;
+  padding-bottom: 10px;
+}
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.video-area {
+margin-top: 40px;
+margin-bottom: 60px;
+display: flex;
+display: block;
+flex-wrap: nowrap;
+text-align: center;
+justify-content: center;
+}
+/* ABOUT page styling */
+.about-container {
+  background-color: #eef2f4;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.about-us {
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.about-us p{
+  margin: 0 100px 0 100px;
+}
+.instructor-container {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.instructor-container h2 {
+padding-bottom: 20px;
+}
+.instructor-1 {
+  display: inline-block;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.instructor-2 {
+  display: inline-block;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}.instructor-3 {
+  display: inline-block;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
